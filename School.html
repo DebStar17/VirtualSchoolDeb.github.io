@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>The VIRTUAL School</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+font-family:Comic Sans Ms;
+}
+
+body {
+  background-image: url('download.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+table {
+width:100%;
+padding:2px;
+}
+
+th {
+font-size:200%;
+background-color:lightgray;
+font-family:Algerian;
+} 
+
+table, th, td {
+border:5px solid black;
+
+}
+
+h1 {
+text-align:center;
+font-family:Algerian;
+color:black;
+}
+
+a {
+text-align:center;
+color:black;
+}
+</style>
+
+<script>
+function myFunction() {
+document.getElementById("btn").disabled = false;
+switch (new Date().getDay()) {
+   case 1:
+document.getElementsByName("hw")[0].disabled = false;
+document.getElementsByName("hw")[1].disabled = false;
+document.getElementsByName("hw")[2].disabled = false;
+document.getElementsByName("hw")[3].disabled = false;
+document.getElementsByName("hw")[4].disabled = false;
+document.getElementsByName("hw")[5].disabled = false;
+    break;
+  case 2:
+document.getElementsByName("hw1")[0].disabled = false;
+document.getElementsByName("hw1")[1].disabled = false;
+document.getElementsByName("hw1")[2].disabled = false;
+document.getElementsByName("hw1")[3].disabled = false;
+document.getElementsByName("hw1")[4].disabled = false;
+document.getElementsByName("hw1")[5].disabled = false;
+    break;
+  case 3:
+document.getElementsByName("hw2")[0].disabled = false;
+document.getElementsByName("hw2")[1].disabled = false;
+document.getElementsByName("hw2")[2].disabled = false;
+document.getElementsByName("hw2")[3].disabled = false;
+document.getElementsByName("hw2")[4].disabled = false;
+document.getElementsByName("hw2")[5].disabled = false;
+    break;
+  case 4:
+document.getElementsByName("hw3")[0].disabled = false;
+document.getElementsByName("hw3")[1].disabled = false;
+document.getElementsByName("hw3")[2].disabled = false;
+document.getElementsByName("hw3")[3].disabled = false;
+document.getElementsByName("hw3")[4].disabled = false;
+document.getElementsByName("hw3")[5].disabled = false;
+    break;
+  case 5:
+document.getElementsByName("hw4")[0].disabled = false;
+document.getElementsByName("hw4")[1].disabled = false;
+document.getElementsByName("hw4")[2].disabled = false;
+document.getElementsByName("hw4")[3].disabled = false;
+document.getElementsByName("hw4")[4].disabled = false;
+document.getElementsByName("hw4")[5].disabled = false;
+}
+
+}
+</script>
+
+</head>
+
+<body>
+
+<header>
+<h1 Style="font-size:300%;color:white">Welcome to The Virtual School</h1>
+
+
+
+<h1 style="font-size:200%">Term 2 Classroom Links</h1>
+
+<table>
+<tr>
+
+<th><a href="https://classroom.google.com/u/0/c/MTU2NTIxNDg2NzI2" target="_blank">Science2	</a></th>
+<th><a href="https://classroom.google.com/u/0/c/MTU2NjQwMTYyOTQ1" target="_blank">S.st2		</a></th>
+<th><a href="https://classroom.google.com/u/0/c/MTU2MzU0MzQ3NDk4" target="_blank">Maths2	</a></th>
+<th><a href="https://classroom.google.com/u/0/c/MjAxNzQ3MDUxMzg1" target="_blank">Hindi2	</a></th>
+<th><a href="https://classroom.google.com/u/0/c/MjAyNjk3OTAzMTIw" target="_blank">French2	</a></th>
+<th><a href="https://classroom.google.com/u/0/c/MTk5ODc1MjAwNTIz" target="_blank">PE2 		</a></th>
+<th><a href="https://classroom.google.com/u/0/c/MjAzMTcyMjIxNDk2" target="_blank">Tw2		</a></th>
+<th><a href="https://classroom.google.com/u/0/c/NjkzNTk1NDE0OTha" target="_blank">Music1	</a></th>
+<th><a href="https://classroom.google.com/u/0/c/MTU2NjkzNzMwMTg2" target="_blank">Comp.2	</a></th>
+<th><a href="https://classroom.google.com/u/0/c/MjAyMjc1MjI2NTYw" target="_blank">VE2		</a></th>
+<th><a href="https://classroom.google.com/u/0/c/MTkyMDMxNzYxMDIz" target="_blank">Art2		</a></th>
+<th><a href="https://classroom.google.com/u/0/c/MjAwNzU0NDIxMjIx" target="_blank">Eng2		</a></th>
+
+</tr>
+</table>
+
+</header>
+<br>
+
+<center>
+
+<button id="btn1" type="button" style="font-size:150%" onclick="myFunction()">Activate School</button> 
+<button id="btn3" type="button" style="font-size:150%" onclick="a()">WhatsApp</button> <br>
+
+<script>
+function a() {
+open("https://web.whatsapp.com/")
+};
+</script>
+
+<h1>TimeTable + Hw pane</h1>
+
+</center>
+
+<br>
+
+<table>
+<tr>
+
+<th>MONDAY</th>
+<th>TUESDAY</th>
+<th>WEDNESDAY</th>
+<th>THURSDAY</th>
+<th>FRIDAY</th>
+
+</tr>
+
+<tr>
+
+<td>
+<form>
+<textarea name="hw" rows="2"cols="30" style="text-align:center" disabled>***CT***</textarea>
+</form>
+</td>
+
+<td>
+<form>
+<textarea name="hw1" rows="2"cols="30" style="text-align:center"  disabled>***Sci***</textarea>
+</form>
+</td>
+
+<td>
+<form>
+<textarea name="hw2" rows="2"cols="30" style="text-align:center" disabled>***CT***</textarea>
+</form>
+</td>
+
+<td>
+<form>
+<textarea name="hw3" rows="2"cols="30" style="text-align:center" disabled>***Sci***</textarea>
+</form>
+</td>
+
+<td>
+<form>
+<textarea name="hw4" rows="2"cols="26" style="text-align:center" disabled>***Hindi***</textarea>
+</form>
+</td>
+
+
+</tr>
+
+
+<tr>
+
+<td>
+<form>
+<textarea name="hw" rows="2"cols="30" style="text-align:center" disabled>***F/Skt***</textarea>
+</form>
+</td>
+
+<td>
+<form>
+<textarea name="hw1" rows="2"cols="30" style="text-align:center"  disabled>***Y/T***</textarea>
+</form>
+</td>
+
+<td>
+<form>
+<textarea name="hw2" rows="2"cols="30" style="text-align:center" disabled>***Hindi***</textarea>
+</form>
+</td>
+
+<td>
+<form>
+<textarea name="hw3" rows="2"cols="30" style="text-align:center" disabled>***S.st***</textarea>
+</form>
+</td>
+
+<td>
+<form>
+<textarea name="hw4" rows="2"cols="26" style="text-align:center" disabled>***VE***</textarea>
+</form>
+</td>
+
+
+</tr>
+<tr>
+
+<td>
+<form>
+<textarea name="hw" rows="2"cols="30" style="text-align:center" disabled>***Sci***</textarea>
+</form>
+</td>
+
+<td>
+<form>
+<textarea name="hw1" rows="2"cols="30" style="text-align:center"  disabled>***Maths***</textarea>
+</form>
+</td>
+
+<td>
+<form>
+<textarea name="hw2" rows="2"cols="30" style="text-align:center" disabled>***PE***</textarea>
+</form>
+</td>
+
+<td>
+<form>
+<textarea name="hw3" rows="2"cols="30" style="text-align:center" disabled>***Art***</textarea>
+</form>
+</td>
+
+<td>
+<form>
+<textarea name="hw4" rows="2"cols="26" style="text-align:center" disabled>***M/D***</textarea>
+</form>
+</td>
+
+
+</tr>
+<tr>
+
+<td>
+<form>
+<textarea name="hw" rows="2"cols="30" style="text-align:center" disabled>***English***</textarea>
+</form>
+</td>
+
+<td>
+<form>
+<textarea name="hw1" rows="2"cols="30" style="text-align:center"  disabled>***Eng***</textarea>
+</form>
+</td>
+
+<td>
+<form>
+<textarea name="hw2" rows="2"cols="30" style="text-align:center" disabled>***Comp.***</textarea>
+</form>
+</td>
+
+<td>
+<form>
+<textarea name="hw3" rows="2"cols="30" style="text-align:center" disabled>***Pe***</textarea>
+</form>
+</td>
+
+<td>
+<form>
+<textarea name="hw4" rows="2"cols="26" style="text-align:center" disabled>***S.st***</textarea>
+</form>
+</td>
+
+
+</tr>
+<tr>
+
+<td>
+<form>
+<textarea name="hw" rows="2"cols="30" style="text-align:center" disabled>***Maths***</textarea>
+</form>
+</td>
+
+<td>
+<form>
+<textarea name="hw1" rows="2"cols="30" style="text-align:center"  disabled>***S.st***</textarea>
+</form>
+</td>
+
+<td>
+<form>
+<textarea name="hw2" rows="2"cols="30" style="text-align:center" disabled>***S.st***</textarea>
+</form>
+</td>
+
+<td>
+<form>
+<textarea name="hw3" rows="2"cols="30" style="text-align:center" disabled>***Maths***</textarea>
+</form>
+</td>
+
+<td>
+<form>
+<textarea name="hw4" rows="2"cols="26" style="text-align:center" disabled>***F/Skt***</textarea>
+</form>
+</td>
+
+
+</tr>
+<tr>
+
+<td>
+<form>
+<textarea name="hw" rows="2"cols="30" style="text-align:center" disabled>***Hindi***</textarea>
+</form>
+</td>
+
+<td>
+<form>
+<textarea name="hw1" rows="2"cols="30" style="text-align:center"  disabled>***Hindi***</textarea>
+</form>
+</td>
+
+<td>
+<form>
+<textarea name="hw2" rows="2"cols="30" style="text-align:center" disabled>***Maths***</textarea>
+</form>
+</td>
+
+<td>
+<form>
+<textarea name="hw3" rows="2"cols="30" style="text-align:center" disabled>***Eng***</textarea>
+</form>
+</td>
+
+<td>
+<form>
+<textarea name="hw4" rows="2"cols="26" style="text-align:center" disabled>***Sci***</textarea>
+</form>
+</td>
+
+</tr>
+</table>
+<br>
+
+<center>
+<button onclick="Store()" style="font-size:200%" id="btn" disabled>SAVE</button>
+<button onclick="hw()" style="font-size:200%" id="btn2">HOMEWORK</button>
+</center>
+<h1 id="Home">************</h1>
+
+
+<h1 style="color:green" id="date"></h1>
+<h2 id="a1"></h2>
+<h2 id="b1"></h2>
+<h2 id="c1"></h2>
+<h2 id="d1"></p>
+<h2 id="e1"></h2>
+<h2 id="f1"></h2>
+
+
+
+ <h1 style="color:green" id="date2"></h1> 
+<h2 id="a2"></h2>
+<h2 id="b2"></h2>
+<h2 id="c2"></h2>
+<h2 id="d2"></p>
+<h2 id="e2"></h2>
+<h2 id="f2"></h2>
+
+
+
+<h1 style="color:green" id="date3"></h1> 
+<h2 id="a3"></h2>
+<h2 id="b3"></h2>
+<h2 id="c3"></h2>
+<h2 id="d3"></p>
+<h2 id="e3"></h2>
+<h2 id="f3"></h2>
+
+
+
+ <h1 style="color:green" id="date4"></h1> 
+<h2 id="a4"></h2>
+<h2 id="b4"></h2>
+<h2 id="c4"></h2>
+<h2 id="d4"></p>
+<h2 id="e4"></h2>
+<h2 id="f4"></h2>
+
+
+
+ <h1 style="color:green" id="date5"></h1> 
+<h2 id="a5"></h2>
+<h2 id="b5"></h2>
+<h2 id="c5"></h2>
+<h2 id="d5"></p>
+<h2 id="e5"></h2>
+<h2 id="f5"></h2>
+
+<h1 style="font-size:200%">Term 1 Classroom Links</h1>
+
+<table>
+<tr>
+
+<th><a href="https://classroom.google.com/u/0/c/NjcyMDA5NzgyNDRa" target="_blank">Science1	</a></th>
+<th><a href="https://classroom.google.com/u/0/c/NjY2MjEzMDM2NDBa" target="_blank">S.st1		</a></th>
+<th><a href="https://classroom.google.com/u/0/c/NTcyOTQzODU5NTFa" target="_blank">Maths1	</a></th>
+<th><a href="https://classroom.google.com/u/0/c/NTY5MTM0NzY5NDJa" target="_blank">Hindi1	</a></th>
+<th><a href="https://classroom.google.com/u/0/c/ODkyNjEzOTkwNjha" target="_blank">French1	</a></th>
+<th><a href="https://classroom.google.com/u/0/c/OTYxMzA1MjYyOTBa" target="_blank">PE1		</a></th>
+<th><a href="https://classroom.google.com/u/0/c/MTE0MTI3NDI5ODI2" target="_blank">Tw1		</a></th>
+<th><a href="https://classroom.google.com/u/0/c/NjkzNTk1NDE0OTha" target="_blank">Music1	</a></th>
+<th><a href="https://classroom.google.com/u/0/c/NzY4MjYwMTk0NDda" target="_blank">Comp.1	</a></th>
+<th><a href="https://classroom.google.com/u/0/c/OTA0NjU2MTg4MTla" target="_blank">VE1		</a></th>
+<th><a href="https://classroom.google.com/u/0/c/Njk1ODU0MDExODNa" target="_blank">Art1		</a></th>
+<th><a href="https://classroom.google.com/u/0/c/NjY2MDE1NTg1OTRa" target="_blank">Eng1		</a></th>
+
+</tr>
+</table>
+
+<script>
+function Store() {
+alert ("Saved!");
+document.getElementById("Home").innerHTML = "Now try clicking the Homework Button...";
+document.getElementById("btn2").disabled = false;
+document.getElementById("btn1").disabled = true;
+var d = new Date();
+var n = "Date... " + d.getUTCDate() + "/" + d.getUTCMonth() + "/" + d.getUTCFullYear();
+
+window.localStorage;
+
+switch (new Date().getDay()) {
+
+   case 1:
+var x = document.getElementsByName("hw")[0].value;
+var y = document.getElementsByName("hw")[1].value;
+var z = document.getElementsByName("hw")[2].value;
+var a = document.getElementsByName("hw")[3].value;
+var b = document.getElementsByName("hw")[4].value;
+var c = document.getElementsByName("hw")[5].value;
+localStorage.setItem("1", x);
+localStorage.setItem("2", y);
+localStorage.setItem("3", z);
+localStorage.setItem("4", a);
+localStorage.setItem("5", b);
+localStorage.setItem("6", c);
+localStorage.setItem("7", n);
+    break;
+  case 2:
+
+var xx = document.getElementsByName("hw1")[0].value;
+var yy = document.getElementsByName("hw1")[1].value;
+var zz = document.getElementsByName("hw1")[2].value;
+var aa = document.getElementsByName("hw1")[3].value;
+var bb = document.getElementsByName("hw1")[4].value;
+var cc = document.getElementsByName("hw1")[5].value;
+localStorage.setItem("8", xx);
+localStorage.setItem("9", yy);
+localStorage.setItem("10", zz);
+localStorage.setItem("11", aa);
+localStorage.setItem("12", bb);
+localStorage.setItem("13", cc);
+localStorage.setItem("14", n);
+    break;
+  case 3:
+
+var xxx = document.getElementsByName("hw2")[0].value;
+var yyy = document.getElementsByName("hw2")[1].value;
+var zzz = document.getElementsByName("hw2")[2].value;
+var aaa = document.getElementsByName("hw2")[3].value;
+var bbb = document.getElementsByName("hw2")[4].value;
+var ccc = document.getElementsByName("hw2")[5].value;
+localStorage.setItem("15", xxx);
+localStorage.setItem("16", yyy);
+localStorage.setItem("17", zzz);
+localStorage.setItem("18", aaa);
+localStorage.setItem("19", bbb);
+localStorage.setItem("20", ccc);
+localStorage.setItem("21", n);   
+break;
+  case 4:
+
+var xxxx = document.getElementsByName("hw3")[0].value;
+var yyyy = document.getElementsByName("hw3")[1].value;
+var zzzz = document.getElementsByName("hw3")[2].value;
+var aaaa = document.getElementsByName("hw3")[3].value;
+var bbbb = document.getElementsByName("hw3")[4].value;
+var cccc = document.getElementsByName("hw3")[5].value;
+localStorage.setItem("22", xxxx);
+localStorage.setItem("23", yyyy);
+localStorage.setItem("24", zzzz);
+localStorage.setItem("25", aaaa);
+localStorage.setItem("26", bbbb);
+localStorage.setItem("27", cccc);
+localStorage.setItem("28", n);
+    break;
+  case 5:
+
+var xxxxx = document.getElementsByName("hw4")[0].value;
+var yyyyy = document.getElementsByName("hw4")[1].value;
+var zzzzz = document.getElementsByName("hw4")[2].value;
+var aaaaa = document.getElementsByName("hw4")[3].value;
+var bbbbb = document.getElementsByName("hw4")[4].value;
+var ccccc = document.getElementsByName("hw4")[5].value;
+localStorage.setItem("29", xxxxx);
+localStorage.setItem("30", yyyyy);
+localStorage.setItem("31", zzzzz);
+localStorage.setItem("32", aaaaa);
+localStorage.setItem("33", bbbbb);
+localStorage.setItem("34", ccccc);
+localStorage.setItem("35", n);
+
+}
+
+};
+</script>
+
+<script>
+function hw() {
+
+document.getElementById("btn2").disabled = true;
+document.getElementById("btn1").disabled = true;
+document.getElementById("Home").innerHTML = "Scroll Down to See Today's homework...";
+window.localStorage;
+
+
+switch (new Date().getDay()) {
+
+   case 1:
+ document.getElementById("date").innerHTML = "Monday "
+document.getElementById("a1").innerHTML = localStorage.getItem("1");
+document.getElementById("b1").innerHTML = localStorage.getItem("2");
+document.getElementById("c1").innerHTML = localStorage.getItem("3");
+document.getElementById("d1").innerHTML = localStorage.getItem("4");
+document.getElementById("e1").innerHTML = localStorage.getItem("5");
+document.getElementById("f1").innerHTML = localStorage.getItem("6");
+    break;
+  case 2:
+
+ document.getElementById("date").innerHTML = "Monday "
+document.getElementById("a1").innerHTML = localStorage.getItem("1");
+document.getElementById("b1").innerHTML = localStorage.getItem("2");
+document.getElementById("c1").innerHTML = localStorage.getItem("3");
+document.getElementById("d1").innerHTML = localStorage.getItem("4");
+document.getElementById("e1").innerHTML = localStorage.getItem("5");
+document.getElementById("f1").innerHTML = localStorage.getItem("6");
+
+  document.getElementById("date2").innerHTML = "Tuesday "
+document.getElementById("a2").innerHTML = localStorage.getItem("8");
+document.getElementById("b2").innerHTML = localStorage.getItem("9");
+document.getElementById("c2").innerHTML = localStorage.getItem("10");
+document.getElementById("d2").innerHTML = localStorage.getItem("11");
+document.getElementById("e2").innerHTML = localStorage.getItem("12");
+document.getElementById("f2").innerHTML = localStorage.getItem("13");
+    break;
+  case 3:
+
+ document.getElementById("date").innerHTML = "Monday "
+document.getElementById("a1").innerHTML = localStorage.getItem("1");
+document.getElementById("b1").innerHTML = localStorage.getItem("2");
+document.getElementById("c1").innerHTML = localStorage.getItem("3");
+document.getElementById("d1").innerHTML = localStorage.getItem("4");
+document.getElementById("e1").innerHTML = localStorage.getItem("5");
+document.getElementById("f1").innerHTML = localStorage.getItem("6");
+
+  document.getElementById("date2").innerHTML = "Tuesday "
+document.getElementById("a2").innerHTML = localStorage.getItem("8");
+document.getElementById("b2").innerHTML = localStorage.getItem("9");
+document.getElementById("c2").innerHTML = localStorage.getItem("10");
+document.getElementById("d2").innerHTML = localStorage.getItem("11");
+document.getElementById("e2").innerHTML = localStorage.getItem("12");
+document.getElementById("f2").innerHTML = localStorage.getItem("13");
+
+  document.getElementById("date3").innerHTML = "Wednesday "
+document.getElementById("a3").innerHTML = localStorage.getItem("15");
+document.getElementById("b3").innerHTML = localStorage.getItem("16");
+document.getElementById("c3").innerHTML = localStorage.getItem("17");
+document.getElementById("d3").innerHTML = localStorage.getItem("18");
+document.getElementById("e3").innerHTML = localStorage.getItem("19");
+document.getElementById("f3").innerHTML = localStorage.getItem("20");
+   
+break;
+  case 4:
+
+ document.getElementById("date").innerHTML = "Monday "
+document.getElementById("a1").innerHTML = localStorage.getItem("1");
+document.getElementById("b1").innerHTML = localStorage.getItem("2");
+document.getElementById("c1").innerHTML = localStorage.getItem("3");
+document.getElementById("d1").innerHTML = localStorage.getItem("4");
+document.getElementById("e1").innerHTML = localStorage.getItem("5");
+document.getElementById("f1").innerHTML = localStorage.getItem("6");
+
+  document.getElementById("date2").innerHTML = "Tuesday "
+document.getElementById("a2").innerHTML = localStorage.getItem("8");
+document.getElementById("b2").innerHTML = localStorage.getItem("9");
+document.getElementById("c2").innerHTML = localStorage.getItem("10");
+document.getElementById("d2").innerHTML = localStorage.getItem("11");
+document.getElementById("e2").innerHTML = localStorage.getItem("12");
+document.getElementById("f2").innerHTML = localStorage.getItem("13");
+
+  document.getElementById("date3").innerHTML = "Wednesday "
+document.getElementById("a3").innerHTML = localStorage.getItem("15");
+document.getElementById("b3").innerHTML = localStorage.getItem("16");
+document.getElementById("c3").innerHTML = localStorage.getItem("17");
+document.getElementById("d3").innerHTML = localStorage.getItem("18");
+document.getElementById("e3").innerHTML = localStorage.getItem("19");
+document.getElementById("f3").innerHTML = localStorage.getItem("20");
+ 
+  document.getElementById("date4").innerHTML = "Thursday "
+document.getElementById("a4").innerHTML = localStorage.getItem("22");
+document.getElementById("b4").innerHTML = localStorage.getItem("23");
+document.getElementById("c4").innerHTML = localStorage.getItem("24");
+document.getElementById("d4").innerHTML = localStorage.getItem("25");
+document.getElementById("e4").innerHTML = localStorage.getItem("26");
+document.getElementById("f4").innerHTML = localStorage.getItem("27");
+    break;
+
+  case 5:
+
+ document.getElementById("date").innerHTML = "Monday "
+document.getElementById("a1").innerHTML = localStorage.getItem("1");
+document.getElementById("b1").innerHTML = localStorage.getItem("2");
+document.getElementById("c1").innerHTML = localStorage.getItem("3");
+document.getElementById("d1").innerHTML = localStorage.getItem("4");
+document.getElementById("e1").innerHTML = localStorage.getItem("5");
+document.getElementById("f1").innerHTML = localStorage.getItem("6");
+
+  document.getElementById("date2").innerHTML = "Tuesday "
+document.getElementById("a2").innerHTML = localStorage.getItem("8");
+document.getElementById("b2").innerHTML = localStorage.getItem("9");
+document.getElementById("c2").innerHTML = localStorage.getItem("10");
+document.getElementById("d2").innerHTML = localStorage.getItem("11");
+document.getElementById("e2").innerHTML = localStorage.getItem("12");
+document.getElementById("f2").innerHTML = localStorage.getItem("13");
+
+  document.getElementById("date3").innerHTML = "Wednesday "
+document.getElementById("a3").innerHTML = localStorage.getItem("15");
+document.getElementById("b3").innerHTML = localStorage.getItem("16");
+document.getElementById("c3").innerHTML = localStorage.getItem("17");
+document.getElementById("d3").innerHTML = localStorage.getItem("18");
+document.getElementById("e3").innerHTML = localStorage.getItem("19");
+document.getElementById("f3").innerHTML = localStorage.getItem("20");
+ 
+  document.getElementById("date4").innerHTML = "Thursday "
+document.getElementById("a4").innerHTML = localStorage.getItem("22");
+document.getElementById("b4").innerHTML = localStorage.getItem("23");
+document.getElementById("c4").innerHTML = localStorage.getItem("24");
+document.getElementById("d4").innerHTML = localStorage.getItem("25");
+document.getElementById("e4").innerHTML = localStorage.getItem("26");
+document.getElementById("f4").innerHTML = localStorage.getItem("27");
+
+  document.getElementById("date5").innerHTML = "Friday "
+document.getElementById("a5").innerHTML = localStorage.getItem("29");
+document.getElementById("b5").innerHTML = localStorage.getItem("30");
+document.getElementById("c5").innerHTML = localStorage.getItem("31");
+document.getElementById("d5").innerHTML = localStorage.getItem("32");
+document.getElementById("e5").innerHTML = localStorage.getItem("33");
+document.getElementById("f5").innerHTML = localStorage.getItem("34");
+
+  case 6:
+
+ document.getElementById("date").innerHTML = "Monday "
+document.getElementById("a1").innerHTML = localStorage.getItem("1");
+document.getElementById("b1").innerHTML = localStorage.getItem("2");
+document.getElementById("c1").innerHTML = localStorage.getItem("3");
+document.getElementById("d1").innerHTML = localStorage.getItem("4");
+document.getElementById("e1").innerHTML = localStorage.getItem("5");
+document.getElementById("f1").innerHTML = localStorage.getItem("6");
+
+  document.getElementById("date2").innerHTML = "Tuesday "
+document.getElementById("a2").innerHTML = localStorage.getItem("8");
+document.getElementById("b2").innerHTML = localStorage.getItem("9");
+document.getElementById("c2").innerHTML = localStorage.getItem("10");
+document.getElementById("d2").innerHTML = localStorage.getItem("11");
+document.getElementById("e2").innerHTML = localStorage.getItem("12");
+document.getElementById("f2").innerHTML = localStorage.getItem("13");
+
+  document.getElementById("date3").innerHTML = "Wednesday "
+document.getElementById("a3").innerHTML = localStorage.getItem("15");
+document.getElementById("b3").innerHTML = localStorage.getItem("16");
+document.getElementById("c3").innerHTML = localStorage.getItem("17");
+document.getElementById("d3").innerHTML = localStorage.getItem("18");
+document.getElementById("e3").innerHTML = localStorage.getItem("19");
+document.getElementById("f3").innerHTML = localStorage.getItem("20");
+ 
+  document.getElementById("date4").innerHTML = "Thursday "
+document.getElementById("a4").innerHTML = localStorage.getItem("22");
+document.getElementById("b4").innerHTML = localStorage.getItem("23");
+document.getElementById("c4").innerHTML = localStorage.getItem("24");
+document.getElementById("d4").innerHTML = localStorage.getItem("25");
+document.getElementById("e4").innerHTML = localStorage.getItem("26");
+document.getElementById("f4").innerHTML = localStorage.getItem("27");
+
+  document.getElementById("date5").innerHTML = "Friday "
+document.getElementById("a5").innerHTML = localStorage.getItem("29");
+document.getElementById("b5").innerHTML = localStorage.getItem("30");
+document.getElementById("c5").innerHTML = localStorage.getItem("31");
+document.getElementById("d5").innerHTML = localStorage.getItem("32");
+document.getElementById("e5").innerHTML = localStorage.getItem("33");
+document.getElementById("f5").innerHTML = localStorage.getItem("34");
+
+  case 0:
+
+ document.getElementById("date").innerHTML = "Monday "
+document.getElementById("a1").innerHTML = localStorage.getItem("1");
+document.getElementById("b1").innerHTML = localStorage.getItem("2");
+document.getElementById("c1").innerHTML = localStorage.getItem("3");
+document.getElementById("d1").innerHTML = localStorage.getItem("4");
+document.getElementById("e1").innerHTML = localStorage.getItem("5");
+document.getElementById("f1").innerHTML = localStorage.getItem("6");
+
+  document.getElementById("date2").innerHTML = "Tuesday "
+document.getElementById("a2").innerHTML = localStorage.getItem("8");
+document.getElementById("b2").innerHTML = localStorage.getItem("9");
+document.getElementById("c2").innerHTML = localStorage.getItem("10");
+document.getElementById("d2").innerHTML = localStorage.getItem("11");
+document.getElementById("e2").innerHTML = localStorage.getItem("12");
+document.getElementById("f2").innerHTML = localStorage.getItem("13");
+
+  document.getElementById("date3").innerHTML = "Wednesday "
+document.getElementById("a3").innerHTML = localStorage.getItem("15");
+document.getElementById("b3").innerHTML = localStorage.getItem("16");
+document.getElementById("c3").innerHTML = localStorage.getItem("17");
+document.getElementById("d3").innerHTML = localStorage.getItem("18");
+document.getElementById("e3").innerHTML = localStorage.getItem("19");
+document.getElementById("f3").innerHTML = localStorage.getItem("20");
+ 
+  document.getElementById("date4").innerHTML = "Thursday "
+document.getElementById("a4").innerHTML = localStorage.getItem("22");
+document.getElementById("b4").innerHTML = localStorage.getItem("23");
+document.getElementById("c4").innerHTML = localStorage.getItem("24");
+document.getElementById("d4").innerHTML = localStorage.getItem("25");
+document.getElementById("e4").innerHTML = localStorage.getItem("26");
+document.getElementById("f4").innerHTML = localStorage.getItem("27");
+
+  document.getElementById("date5").innerHTML = "Friday "
+document.getElementById("a5").innerHTML = localStorage.getItem("29");
+document.getElementById("b5").innerHTML = localStorage.getItem("30");
+document.getElementById("c5").innerHTML = localStorage.getItem("31");
+document.getElementById("d5").innerHTML = localStorage.getItem("32");
+document.getElementById("e5").innerHTML = localStorage.getItem("33");
+document.getElementById("f5").innerHTML = localStorage.getItem("34");
+
+}
+
+};
+</script>
+
+</body>
+</html>
